@@ -1,0 +1,6 @@
+
+  <% flash.each do |key, msg| %>
+   <ul>
+     <%= content_tag :li, msg, :id => key %>
+   </ul>
+  <% end %>
